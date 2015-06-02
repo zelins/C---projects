@@ -1,0 +1,31 @@
+﻿Сборка начата 6/2/2015 4:01:16 PM.
+     1>Проект "C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Storage Device\Storage Device.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(121): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(120): при компиляции функции-члена "SmartPtr<StorageDevice> &Vector<SmartPtr<StorageDevice>>::operator [](int) const" класса шаблон
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\binarydatamanagerdevice.h(36): см. ссылку на создание экземпляров функции шаблон при компиляции "SmartPtr<StorageDevice> &Vector<SmartPtr<StorageDevice>>::operator [](int) const"
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\binarydatamanagerdevice.h(25): см. ссылку на создание экземпляров класса шаблон при компиляции "Vector<SmartPtr<StorageDevice>>"
+     1>c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(338): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(334): при компиляции функции-члена "void Vector<SmartPtr<StorageDevice>>::Add(const T &)" класса шаблон
+                 with
+                 [
+                     T=SmartPtr<StorageDevice>
+                 ]
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\binarydatamanagerdevice.h(78): см. ссылку на создание экземпляров функции шаблон при компиляции "void Vector<SmartPtr<StorageDevice>>::Add(const T &)"
+                 with
+                 [
+                     T=SmartPtr<StorageDevice>
+                 ]
+     1>c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(373): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\vector.h(370): при компиляции функции-члена "void Vector<SmartPtr<StorageDevice>>::Remove(uint)" класса шаблон
+                 c:\users\dima\documents\visual studio 2013\projects\storage device2\storage device\storage device\application.h(180): см. ссылку на создание экземпляров функции шаблон при компиляции "void Vector<SmartPtr<StorageDevice>>::Remove(uint)"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Debug\Storage Device.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Debug\Storage Device.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Debug\Storage Device.lib" /MACHINE:X86 Debug\Main.obj
+         Storage Device.vcxproj -> C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Debug\Storage Device.exe
+     1>Сборка проекта "C:\Users\Dima\Documents\Visual Studio 2013\Projects\Storage Device2\Storage Device\Storage Device\Storage Device.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.22
